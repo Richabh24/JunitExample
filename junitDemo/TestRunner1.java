@@ -8,7 +8,8 @@ public class TestRunner1 {
    // Result result = JUnitCore.runClasses(ExampleOddTest.class);
      // Result result = JUnitCore.runClasses(SampleJunitTest.class);
      //Result result = JUnitCore.runClasses(MyoddEvenSuitTest.class);
-      Result result = JUnitCore.runClasses(AnnotationTest.class);
+     // Result result = JUnitCore.runClasses(AnnotationTest.class);
+      Result result = JUnitCore.runClasses(ExceptionDemo.class);
 
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
